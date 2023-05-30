@@ -5,12 +5,18 @@ html, body{
   width: 100%;
   font-family: 'poppins', sans-serif;
   color: #222;
+  background-color: darkgray;
 }
 .h1{
   color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar {
   padding: .8rem;
+}
+.navbar-brand img{
+  border-radius: 50%;
+  width: 100%;
 }
 .navbar nav li{
   padding-right: 20px;
@@ -19,6 +25,11 @@ html, body{
   font-size: 1.1em !important;
   justify-content: space-between;
   color: white;
+}
+#slides, .container-fluid{
+  margin: 0 10%;
+  border-radius: 6px;
+
 }
 .carousel-inner img {
   width: 100%;
@@ -40,12 +51,17 @@ html, body{
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+.col-md-6 img{
+  border-radius: 10%;
+  width: 100%;
+  display: 100%;
+}
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #6648b1;
 
 }
-.btn-primary : :hover {
+.btn-primary ::hover {
   background-color: #563d7c;
   border: 1px solid #563d7c;
 }
@@ -97,9 +113,9 @@ html, body{
   margin-bottom: 2rem;
 }
 
-}
+
 footer {
-  background-color: border-left:;;
+  background-color: border-left;
   color: #d5d5d5;
   padding-top: 2rem;
 
