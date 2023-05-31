@@ -172,6 +172,11 @@ hr.light-100 {
   border-radius: 20px;
   background-color: black;
 }
+
+.card-img-top{
+  width: 100%;
+  object-fit: contain;
+}
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
