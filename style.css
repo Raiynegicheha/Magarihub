@@ -26,7 +26,7 @@ html, body{
   justify-content: space-between;
   color: white;
 }
-#slides, .container-fluid{
+#slides,  body{
   margin: 0 10%;
   border-radius: 6px;
 
@@ -70,6 +70,9 @@ html, body{
   border-radius: 0;
   color: #222222;
 }
+.lead{
+  text-align: center;
+}
 .padding {
   padding-bottom: 2rem;
 }
@@ -85,6 +88,8 @@ html, body{
 .h3{
   background-color: #222222;
   color: white;
+  border-radius: 6px;
+  padding-left: 10px;
 }
 .rounded img{
   border-radius: 30%;
@@ -154,6 +159,9 @@ hr.light-100 {
   margin-top: .8rem;
   margin-bottom: 1rem;
 
+}
+.d-block w-100{
+  width: 100%;
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
