@@ -46,6 +46,9 @@ body{
   top: 50%;
   transform: translateY(-50%);
 }
+.carousel-caption p:hover ~ .carousel-inner img {
+  filter: blur(8px); /* Adjust the blur level on hover */
+}
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
